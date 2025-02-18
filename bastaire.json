@@ -59,7 +59,7 @@
             },
             "value": {
                 "en": [
-                    "2025-02-18T06:38:45.972Z"
+                    "2025-02-18T17:22:48.175Z"
                 ]
             }
         },
@@ -127,19 +127,12 @@
                             "id": "https://example.com/canvas-1/annopage-2/anno-0",
                             "type": "Annotation",
                             "motivation": "commenting",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "ligne",
-                                    "purpose": "commenting"
-                                },
-                                {
-                                    "type": "HTMLBody",
-                                    "value": "<p>ligne</p>",
-                                    "purpose": "commenting",
-                                    "format": "text/html"
-                                }
-                            ],
+                            "body": {
+                                "type": "HTMLBody",
+                                "value": "<p>ligne</p>",
+                                "purpose": "commenting",
+                                "format": "text/html"
+                            },
                             "target": {
                                 "type": "SpecificResource",
                                 "source": "https://example.com/canvas-1",
@@ -153,19 +146,12 @@
                             "id": "https://example.com/canvas-1/annopage-2/anno-1",
                             "type": "Annotation",
                             "motivation": "commenting",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "ellipse\n\n",
-                                    "purpose": "commenting"
-                                },
-                                {
-                                    "type": "HTMLBody",
-                                    "value": "<p>ellipse</p><p><br></p>",
-                                    "purpose": "commenting",
-                                    "format": "text/html"
-                                }
-                            ],
+                            "body": {
+                                "type": "HTMLBody",
+                                "value": "<p>ellipse</p><p><br></p>",
+                                "purpose": "commenting",
+                                "format": "text/html"
+                            },
                             "target": {
                                 "type": "SpecificResource",
                                 "source": "https://example.com/canvas-1",
@@ -179,38 +165,24 @@
                             "id": "https://example.com/canvas-1/annopage-2/anno-2",
                             "type": "Annotation",
                             "motivation": "commenting",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "point",
-                                    "purpose": "commenting"
-                                },
-                                {
-                                    "type": "HTMLBody",
-                                    "value": "<p>point</p>",
-                                    "purpose": "commenting",
-                                    "format": "text/html"
-                                }
-                            ],
+                            "body": {
+                                "type": "HTMLBody",
+                                "value": "<p>point</p>",
+                                "purpose": "commenting",
+                                "format": "text/html"
+                            },
                             "target": "https://example.com/canvas-1#xywh=pixel:1085,388,0,0"
                         },
                         {
                             "id": "https://example.com/canvas-1/annopage-2/anno-3",
                             "type": "Annotation",
                             "motivation": "commenting",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "polygon",
-                                    "purpose": "commenting"
-                                },
-                                {
-                                    "type": "HTMLBody",
-                                    "value": "<p>polygon</p>",
-                                    "purpose": "commenting",
-                                    "format": "text/html"
-                                }
-                            ],
+                            "body": {
+                                "type": "HTMLBody",
+                                "value": "<p>polygon</p>",
+                                "purpose": "commenting",
+                                "format": "text/html"
+                            },
                             "target": {
                                 "type": "SpecificResource",
                                 "source": "https://example.com/canvas-1",
@@ -224,20 +196,13 @@
                             "id": "https://example.com/canvas-1/annopage-2/anno-4",
                             "type": "Annotation",
                             "motivation": "commenting",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "rectangle",
-                                    "purpose": "commenting"
-                                },
-                                {
-                                    "type": "HTMLBody",
-                                    "value": "<p>rectangle</p>",
-                                    "purpose": "commenting",
-                                    "format": "text/html"
-                                }
-                            ],
-                            "target": "https://example.com/canvas-1#xywh=pixel:1429,1516,746,747"
+                            "body": {
+                                "type": "HTMLBody",
+                                "value": "<p>rectangle</p>",
+                                "purpose": "commenting",
+                                "format": "text/html"
+                            },
+                            "target": "https://example.com/canvas-1#xywh=1429,1516,746,747"
                         }
                     ]
                 }
