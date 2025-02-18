@@ -136,9 +136,18 @@
                                 {
                                     "type": "HTMLBody",
                                     "value": "<p>ligne</p>",
-                                    "purpose": "commenting"
+                                    "purpose": "commenting",
+                                    "format": "text/html"
                                 }
-                            ]
+                            ],
+                            "target": {
+                                "type": "SpecificResource",
+                                "source": "https://example.com/canvas-1",
+                                "selector": {
+                                    "type": "SvgSelector",
+                                    "value": "<svg><path d=\"M1777.1116943359375 348 L1777.1116943359375 347 L1777.1116943359375 354 L1770.8731689453125 395 L1762.7967529296875 423 L1746.559814453125 466 L1728.63671875 511 L1713.2596435546875 555 L1699.0797119140625 590 L1687.6986083984375 618 L1670.0621337890625 650 L1661.243896484375 673 L1645.5970458984375 702 L1632.2601318359375 730 L1616.61328125 758 L1602.6524658203125 775 L1588.438720703125 795 L1575.658203125 807 L1562.877685546875 820 L1551.698974609375 831 L1542.8302001953125 840 L1531.533447265625 853 L1516.0888671875 869 L1497.7442626953125 887 L1484.508544921875 901 L1471.255859375 915 L1462.3870849609375 923 L1454.7154541015625 929 L1448.17333984375 932 L1441.63134765625 932 L1436.67431640625 933 L1431.481201171875 933 L1427.8729248046875 934 L1425.613525390625 935 L1425.613525390625 937 L1425.613525390625 938 L1425.613525390625 938\"></path></svg>"
+                                }
+                            }
                         },
                         {
                             "id": "https://example.com/canvas-1/annopage-2/anno-1",
@@ -153,7 +162,8 @@
                                 {
                                     "type": "HTMLBody",
                                     "value": "<p>ellipse</p><p><br></p>",
-                                    "purpose": "commenting"
+                                    "purpose": "commenting",
+                                    "format": "text/html"
                                 }
                             ],
                             "target": {
@@ -178,7 +188,8 @@
                                 {
                                     "type": "HTMLBody",
                                     "value": "<p>point</p>",
-                                    "purpose": "commenting"
+                                    "purpose": "commenting",
+                                    "format": "text/html"
                                 }
                             ],
                             "target": "https://example.com/canvas-1#xywh=pixel:1085,388,0,0"
@@ -196,7 +207,8 @@
                                 {
                                     "type": "HTMLBody",
                                     "value": "<p>polygon</p>",
-                                    "purpose": "commenting"
+                                    "purpose": "commenting",
+                                    "format": "text/html"
                                 }
                             ],
                             "target": {
