@@ -129,11 +129,6 @@
                             "motivation": "commenting",
                             "body": [
                                 {
-                                    "type": "TextualBody",
-                                    "value": "ligne",
-                                    "purpose": "commenting"
-                                },
-                                {
                                     "type": "HTMLBody",
                                     "value": "<p>ligne</p>",
                                     "purpose": "commenting",
@@ -154,11 +149,6 @@
                             "type": "Annotation",
                             "motivation": "commenting",
                             "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "ellipse\n\n",
-                                    "purpose": "commenting"
-                                },
                                 {
                                     "type": "HTMLBody",
                                     "value": "<p>ellipse</p><p><br></p>",
@@ -181,11 +171,6 @@
                             "motivation": "commenting",
                             "body": [
                                 {
-                                    "type": "TextualBody",
-                                    "value": "point",
-                                    "purpose": "commenting"
-                                },
-                                {
                                     "type": "HTMLBody",
                                     "value": "<p>point</p>",
                                     "purpose": "commenting",
@@ -199,11 +184,6 @@
                             "type": "Annotation",
                             "motivation": "commenting",
                             "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "polygon",
-                                    "purpose": "commenting"
-                                },
                                 {
                                     "type": "HTMLBody",
                                     "value": "<p>polygon</p>",
